@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Main {
     public static final int SIZE = 3;
 
-
     public static void main(String[] args) {
         int[] array = new int[SIZE];
         for (int i = 0; i < SIZE; i++) {
@@ -19,6 +18,8 @@ public class Main {
         bubbleSort.sort(array);
 
         System.out.println("정렬 후 >> " + Arrays.toString(array));
+
+        System.out.println("Logic End");
 
 
     }
