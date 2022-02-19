@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println("정렬 후 >> " + Arrays.toString(array));
 
-        System.out.println("Logic End");
+        System.out.println("Clone");
 
 
     }
